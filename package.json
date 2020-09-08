@@ -6,7 +6,7 @@
   "description": "React specific wrapper for component-library",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Kaivosukeltaja/niko-ds-react.git"
+    "url": "https://github.com/Kaivosukeltaja/niko-ds-react"
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
