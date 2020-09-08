@@ -1,8 +1,8 @@
 {
   "name": "@kaivosukeltaja/niko-ds-react",
   "sideEffects": false,
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.0.2",
+  "private": false,
   "description": "React specific wrapper for component-library",
   "repository": {
     "type": "git",
@@ -21,10 +21,11 @@
     "dist/"
   ],
   "dependencies": {
-    "@kaivosukeltaja/niko-ds": "0.0.1",
+    "@kaivosukeltaja/niko-ds": "0.0.2",
     "rollup": "^2.26.10"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^5.0.2",
     "@types/jest": "23.3.9",
     "@types/node": "^14.6.3",
     "@types/react": "16.7.6",
